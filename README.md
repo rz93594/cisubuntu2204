@@ -27,6 +27,7 @@ sudo apt install intune-portal
 * execute setup.sh
 
 ## Changes made primary CIS script
+```bash
 ## added tmw, simple check to look for -y and will add call CONFIRM later if no -y
 ## add diff patch
 args=("$@")
@@ -37,8 +38,8 @@ if [ "$FLAG"="-y" ]; then
         echo "Program execution not called correctly, see todd wilkinson"
         exit
 fi
-
 ## Modified header to force L1W
+```
 
 ## removed CONFIRM function from functions/nix_warning_banner.sh but commenting out CONFIRM
 
