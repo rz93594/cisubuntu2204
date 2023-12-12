@@ -26,3 +26,21 @@ sudo apt install intune-portal
 * Get setup.sh file from https://github.com/rz93594/cisubuntu2204/setup.sh
 * execute setup.sh
 
+## Changes made primary CIS script
+## added tmw, simple check to look for -y and will add call CONFIRM later if no -y
+## add diff patch
+args=("$@")
+echo ${args[0]} >> /var/tmp/output.txt
+FLAG=${args[0]}
+
+if [ "$FLAG"="-y" ]; then
+        echo "Program execution not called correctly, see todd wilkinson"
+        exit
+fi
+
+## Modified header to force L1W
+
+## removed CONFIRM function from functions/nix_warning_banner.sh but commenting out CONFIRM
+
+
+
