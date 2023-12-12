@@ -1,0 +1,20 @@
+###########################################
+# To exclude a recomendation from being   #
+# Implemented by the CIS Linux Build Kit  #
+# Please enter the recomendation number   #
+# of the recomendation you wish to        #
+# exclude on it's own line bellow         #
+###########################################
+
+# Example:
+# 2.2.2 # Elclude recommendation 2.2.2 - Ensure X Window System is not installed
+1.1.3.1 # Ensure separate partition exists for /var # profile="L2S L2W"
+1.1.4.1 # Ensure separate partition exists for /var/tmp
+1.1.4.2 # Ensure noexec option set on /var/tmp partition
+1.1.4.3 # Ensure nosuid option set on /var/tmp partition
+1.1.4.4 # Ensure nodev option set on /var/tmp partition
+1.1.5.1 # Ensure separate partition exists for /var/log # profile="L2S L2W"
+1.1.5.2 # Ensure nodev option set on /var/log partition # profile="L1S L1W"
+1.1.5.3 # Ensure noexec option set on /var/log partition
+1.1.5.4 # Ensure nosuid option set on /var/log partition
+

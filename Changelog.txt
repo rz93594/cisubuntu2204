@@ -1,0 +1,13 @@
+***** v1.0.0.1 *****
+- Initial Build Kit release
+
+***** v1.0.0.2 *****
+- Updated runrec.sh to correct problem using exclusion lists
+- Updated nix_ensure_audit_log_dir_750_or_more_restricted.sh to handle missing log_file parameter
+- Updated nix_ensure_audit_log_files_mode_640.sh to handle missing log_file parameter
+- Updated nix_ensure_only_authorized_groups_assigned_ownership_audit_log_files.sh to handle missing log_file parameter
+- Updated nix_ensure_only_authorized_users_own_audit_log_files.sh to handle missing log_file parameter
+- Corrected profile value for 4.1.3.11 4.1.3.14 4.1.3.20 4.1.3.21
+
+***** v1.0.0.3 *****
+- Updated nix_deb_ensure_password_creation_requirements_configured.sh to correct bug in remediation
