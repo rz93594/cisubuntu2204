@@ -34,7 +34,7 @@ echo -e "
 
 # Set global variables
 #BDIR="$(dirname "$(readlink -f "$0")")"
-BDIR=/var/tmp/cisubuntu2024
+BDIR=/var/tmp/cisubuntu2204
 FDIR=$BDIR/functions
 RECDIR="$FDIR"/recommendations
 GDIR="$FDIR"/general
