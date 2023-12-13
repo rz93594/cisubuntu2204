@@ -33,7 +33,8 @@ echo -e "
 \t########################################################\n"
 
 # Set global variables
-BDIR="$(dirname "$(readlink -f "$0")")"
+#BDIR="$(dirname "$(readlink -f "$0")")"
+BDIR=/var/tmp/cisubuntu2024
 FDIR=$BDIR/functions
 RECDIR="$FDIR"/recommendations
 GDIR="$FDIR"/general
