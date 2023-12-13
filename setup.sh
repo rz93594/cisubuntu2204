@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-echo "running cis script from $SCRIPT_DIR" >> /var/tmp/cislog.txt
+echo "running cis script v2 from $SCRIPT_DIR" >> /var/tmp/cislog.txt
 
 if ! command -v git &> /dev/null
 then
