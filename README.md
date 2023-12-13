@@ -23,7 +23,7 @@ sudo apt install intune-portal -y
 
 ## Optional to run hardeningscript by hand, defaults to L1W (if other is wanted modify header of script
 
-* Get setup.sh file from https://github.com/rz93594/cisubuntu2204/setup.sh
+* Get setup.sh file from [https://github.com/rz93594/cisubuntu2204/setup.sh](https://github.com/rz93594/cisubuntu2204/blob/main/setup.sh)
 * execute setup.sh
 
 ## Changes made primary CIS script
